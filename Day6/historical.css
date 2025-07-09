@@ -1,0 +1,31 @@
+.historical{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items:center ;
+    align-items: center;
+    gap: 10px;
+}
+.historical figure{
+    flex:calc(33.33%-20px);
+    margin: 0;
+
+}
+.historical img{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    border: solid black;
+}
+footer{
+    width: 100;
+    display: flex;
+    text-align: center;
+    bottom: 0%;
+    background-color: aquamarine;
+    justify-content: center;
+    padding: 10px;
+}
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20240919/pngtree-a-background-of-orange-blue-and-yellow-gradients-with-gritty-appearance-image_16233934.jpg") ;
+}
