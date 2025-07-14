@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo">Hello</h1>
+    <p class="text">one</p>
+    <p class="text">two</p>
+    <p class="text">three</p>
+    <button onclick="hello()">click</button>
+    <script>
+        let hello=()=>{
+        const para=document.getElementById("demo");
+        para.style.backgroundColor="red";
+        document.body.style.backgroundColor="lightgray";
+        const paras=document.getElementsByTagName("p");
+        paras[5].innerHTML="changed!";
+        const items=document.getElementsByClassName("text");
+        for(let i=0;i<items.length;i++){
+        items[i].style.color="blue";
+
+
+    }
+
+}
+</script>
+</body>
+</html>    
