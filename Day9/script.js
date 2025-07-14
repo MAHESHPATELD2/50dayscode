@@ -38,6 +38,37 @@ console.log(status);
 let x=10;
 console.log(x+=5);
 console.log(x-=5);
-console.log(x)
-console.log(x)
-console.log(x)
+console.log(x*=5);
+console.log(x/=5);
+console.log(x%=5);
+//conditional statements
+let agel=18;
+if(agel>=18){
+console.log("you can vote");
+}
+else{
+console.log("you are too young to vote");
+}
+//else-if and nested conditions
+//else-if
+let temperature=25;
+if(temperature>30){
+    console.log("Its very Hot!");
+}
+else if(temperature>20){
+    console.log("Its Warm");
+}
+else{
+    console.log("Its cold");
+}
+//Nested if 
+let agem=25;
+let isstudent=true;
+if(agem<30){
+    if(isstudent){
+        console.log("young student");
+    }
+    else{
+        console.log("young non-student");
+    }
+}
