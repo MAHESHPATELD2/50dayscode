@@ -1,0 +1,35 @@
+.weather {
+    text-align: end;
+    margin: 2px;
+    
+
+}
+h2{
+    text-align: center;
+    background-color: bisque;
+    margin: 0%;
+
+
+
+}
+body{
+    background-image:url("istockphoto-1703754111-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    background-color:thistle;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 250px;
+    margin-right: 500px;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    flex:wrap;
+
+}
+#cityInput{
+    text-align: center;
+}
