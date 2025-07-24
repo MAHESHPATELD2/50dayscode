@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let fruits=["apple","banana","cherry"];
+    let numbers=[10,20,30,40,50];
+    let mixedData=["hello",123,true,{name:"alice"}];
+    console.log(fruits);
+    console.log(numbers);
+    console.log(mixedData);
+
+    // index
+    console.log(fruits[0]);
+    console.log(fruits[1]);
+    console.log(fruits[2]);
+    console.log(fruits[3]);
+
+    // arraylength
+    let students=["mahesh","anju","jaswanth"];
+    console.log(students.length);
+    let empty=[];
+    console.log(empty.length);
+
+    // changing an existing elements
+    let colors=["red","green","blue"];
+    console.log("original:",colors);
+    colors[1]="yellow";
+    console.log("modified:",colors);
+    colors[3]="orange";
+    console.log("modified:",colors);
+
+    // common array methods
+    // push():
+let fruits1=["apple","banana"];
+let newLength=fruits1.push("orange","date")
+console.log("fruits1");
+console.log("newLength");
+
+// pop():
+let last=colors.pop();
+console.log(colors);
+console.log(last)
+
+
+// unshift():
+let Numbers=[3,4];
+let newLength1=Numbers.unshift(1,2);
+console.log(Numbers);
+
+// shift():
+let days=["monday","tuesday","wednesday"];
+let firstDay=days.shift();
+console.log(days);
+console.log(firstDay);
+
+// Indexof():
+let groceries=["milk","Bread","Eggs","milk"];
+console.log(groceries.indexOf("Bread"));
+console.log(groceries.indexOf("milk"));
+console.log(groceries.indexOf("yogort"));
+
+// LastIndexof():
+let list=["A","B","C","B"];
+console.log(list.lastIndexOf("B"));
+
+// includes
+let items=["Pen","Paper","Books"];
+console.log(items.includes("Paper"));
+console.log(items.includes("eraser"));
+
+// slice():
+let originalNums=[10,20,30,40,50,60];
+console.log("original:",originalNums);
+let part1=originalNums.slice(2,5);
+console.log("slice(2,5):",part1);
+let part2=originalNums.slice(3);
+console.log("slice(3):",part2);
+
+// splice():
+let mutableArray=["A","B","C","D","E"];
+console.log()
+
+</script>
+</body>
+</html>
