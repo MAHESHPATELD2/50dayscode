@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script>
+    let person={
+        name:"mahesh",age:21,isStudent:true};
+        console.log(person.name);
+        // To update a property
+        person.age=26;
+        console.log(person.age);
+        // to delete a property
+        delete person.isStudent;
+        console.log(person); 
+        // Function with object
+        function printstudent(student){
+            console.log("student"+student.name+"is"+student.age+"Years old");
+        }
+        printstudent({name:"Anju..",age:22});
+ </script>   
+</body>
+</html>
