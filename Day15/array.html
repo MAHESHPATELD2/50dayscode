@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+//    Array Destructuring
+const fruits=["apple","banana","mango"];
+const[a,b,c]=fruits;
+console.log(a);
+console.log(b);
+
+// Map():
+let numbers=[1,2,3,4];
+let Add=numbers.map(num=>num+2);
+console.log(Add);
+console.log(numbers);
+
+// Filter():
+const number=[1,2,3,4];
+const evenNumbers=number.filter(num=>num%2===0);
+console.log(evenNumbers);
+
+// Reduce
+const numbers1=[1,2,3,4];
+const sum=numbers1.reduce((acc,num)=>acc+num,0);
+console.log(sum);
+
+// task
+const arrayOfArrays=[[1,2],[3,4],[5,6]];
+const flattenedArray=arrayOfArrays.reduce((accumulator,currentValue)=>{
+    return accumulator.concat(currentValue);
+});
+console.log("Original arrayofarrays:",arrayOfArrays);
+console.log("Flattenedarray:",flattenedArray);
+
+
+
+</script>
+</body>
+</html>
